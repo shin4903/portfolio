@@ -5,5 +5,5 @@ export default defineConfig({
   resolve: {
     alias: [{ find: "@", replacement: "/src" }],
   },
-  base: "https://shin4903.github.io/portfolio",
+  base: "/portfolio/",
 });
