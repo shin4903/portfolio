@@ -4,20 +4,38 @@
 }
 
 @font-face {
-  font-family: "boldfont";
+  font-family: "HangeulFontMedium";
+  src: url("./fonts/SUIT-Medium.ttf");
+}
+
+@font-face {
+  font-family: "HangeulFontRegular";
+  src: url("./fonts/SUIT-Regular.ttf");
+}
+
+@font-face {
+  font-family: "HangeulFontSemiBold";
+  src: url("./styles/fonts/SUIT-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "HangeulFontExtraBold";
+  src: url("./styles/fonts/SUIT-ExtraBold.otf");
+}
+
+@font-face {
+  font-family: "HangeulFontBold";
   src: url("./styles/fonts/SUIT-Bold.otf");
 }
+
 @font-face {
-  font-family: "semiboldfont";
-  src: url("./styles/fonts/SUIT-SemiBold.otf");
+  font-family: "EnglishFontBold";
+  src: url("./styles/fonts/PPNeueMachina-InktrapUltrabold.otf");
 }
+
 @font-face {
-  font-family: "regularfont";
-  src: url("./styles/fonts/SUIT-Regular.otf");
-}
-@font-face {
-  font-family: "lightfont";
-  src: url("./styles/fonts/SUIT-Light.otf");
+  font-family: "EnglishFontLight";
+  src: url("./styles/fonts/PPNeueMachina-PlainLight.otf");
 }
 
 .container {
