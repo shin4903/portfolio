@@ -4,7 +4,7 @@ const StyledProfileComponent = styled.div`
   width: 1080px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 30px;
 `;
 
 const StyledProfileTitle = styled.div`
@@ -16,6 +16,14 @@ const StyledProfileTitle = styled.div`
   align-items: center;
 `;
 
+const StyledProfileSub = styled.div`
+  font-family: ${(props) => props.theme.fonts.KoreaFontRegular};
+  font-size: ${(props) => props.theme.fontSizes.medium};
+  color: ${(props) => props.theme.colors.lightmain};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 const StyledProfileContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -33,7 +41,7 @@ const StyledProfileInfoContainer = styled.div`
   border-radius: 20px;
   padding: 20px;
   box-sizing: border-box;
-  box-shadow: 0 0 10px ${(props) => props.theme.colors.lightmain};
+  box-shadow: 0 0 8px ${(props) => props.theme.colors.lightmain};
 `;
 
 const StyledProfileContentContainer = styled.div`
@@ -87,6 +95,7 @@ const StyledProfileContentLink = styled.a`
 export {
   StyledProfileComponent,
   StyledProfileTitle,
+  StyledProfileSub,
   StyledProfileContainer,
   StyledProfileimgContainer,
   StyledProfileInfoContainer,

@@ -10,7 +10,8 @@ const theme: DefaultTheme = {
     white: "#FAFAFA",
     black: "#363636",
     lightgray: "#E4E7EC",
-    lightmain: "rgba(88, 101, 242, 0.4)",
+    lightmain: "rgba(88, 101, 242, 0.5)",
+    gray: "rgba(0, 0, 0, 0.5)",
   },
   fonts: {
     KoreaFontMedium: "HangeulFontMedium",
