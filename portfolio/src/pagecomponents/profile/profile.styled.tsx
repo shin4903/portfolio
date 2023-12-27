@@ -32,8 +32,8 @@ const StyledProfileContainer = styled.div`
 `;
 
 const StyledProfileimgContainer = styled.div`
-  width: 300px;
-  height: 480px;
+  width: 260px;
+  height: 390px;
   border: 1px solid black;
 `;
 const StyledProfileInfoContainer = styled.div`
@@ -50,8 +50,8 @@ const StyledProfileContentContainer = styled.div`
 `;
 
 const StyledProfileContentMain = styled.div`
-  font-family: ${(props) => props.theme.fonts.KoreaFontExtraBold};
-  font-size: ${(props) => props.theme.fontSizes.large};
+  font-family: ${(props) => props.theme.fonts.KoreaFontBold};
+  font-size: ${(props) => props.theme.fontSizes.medium};
   color: ${(props) => props.theme.colors.main};
 `;
 
@@ -61,33 +61,33 @@ const StyledProfileContentBox = styled.div`
 `;
 
 const StyledProfileContentTitle = styled.div`
-  width: 150px;
-  font-family: ${(props) => props.theme.fonts.KoreaFontBold};
-  font-size: ${(props) => props.theme.fontSizes.small};
+  width: 120px;
+  font-family: ${(props) => props.theme.fonts.KoreaFontRegular};
+  font-size: ${(props) => props.theme.fontSizes.xsmall};
   color: ${(props) => props.theme.colors.black};
   display: flex;
   align-items: center;
 `;
 const StyledProfileContentTitle2 = styled.div`
-  width: 150px;
+  width: 120px;
   font-family: ${(props) => props.theme.fonts.KoreaFontRegular};
-  font-size: ${(props) => props.theme.fontSizes.small};
+  font-size: ${(props) => props.theme.fontSizes.xsmall};
   color: ${(props) => props.theme.colors.black};
 `;
 
 const StyledProfileContent = styled.div`
-  width: 320px;
+  width: 250px;
   font-family: ${(props) => props.theme.fonts.KoreaFontRegular};
-  font-size: ${(props) => props.theme.fontSizes.small};
+  font-size: ${(props) => props.theme.fontSizes.xsmall};
   color: ${(props) => props.theme.colors.gray};
   display: flex;
   align-items: center;
 `;
 
 const StyledProfileContentLink = styled.a`
-  width: 300px;
+  width: 250px;
   font-family: ${(props) => props.theme.fonts.KoreaFontRegular};
-  font-size: ${(props) => props.theme.fontSizes.small};
+  font-size: ${(props) => props.theme.fontSizes.xsmall};
   color: ${(props) => props.theme.colors.gray};
   text-decoration: none;
 `;

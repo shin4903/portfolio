@@ -21,7 +21,7 @@ const Profile = () => {
       <StyledProfileTitle>
         성취! 성공을 취하는 개발자 신종혁입니다.
       </StyledProfileTitle>
-      <StyledProfileSub>123</StyledProfileSub>
+      {/* <StyledProfileSub>123</StyledProfileSub> */}
       <StyledProfileContainer>
         <StyledProfileimgContainer></StyledProfileimgContainer>
         <StyledProfileInfoContainer>
